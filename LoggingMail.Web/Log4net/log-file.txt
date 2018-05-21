@@ -1,0 +1,5 @@
+16:43:45,889 [LoggingMail.Web.Controllers.HomeController] ERROR - This is our error message
+16:43:45,915 [LoggingMail.Web.Controllers.HomeController] FATAL - This was a terrible error
+16:43:45,916 [LoggingMail.Web.Controllers.HomeController] ERROR - Index number not available
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at LoggingMail.Web.Controllers.HomeController.Log4net() in c:\users\hcode\source\repos\LoggingMail\LoggingMail.Web\Controllers\HomeController.cs:line 38
